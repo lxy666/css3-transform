@@ -23,5 +23,5 @@ transform: none|transform-functions;
 | rotate3d(x,y,z,angle） | 3D 旋转 |
 | rotateX(angle） | X 轴的 3D 旋转 |
 | rotateY(angle)  | Y 轴的 3D 旋转 |
-| rotateZ(angle） | rotateZ(angle |
+| rotateZ(angle） | Z 轴的 3D 旋转|
 | perspective(n)  | 为 3D 转换元素定义透视视图 |
