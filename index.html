@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrap {
+            width: 98%;
+            margin: 0 auto;
+        }
+
+        .content img {
+            width: 1400px;
+            height: 400px;
+        }
+        .pic1{
+            position: absolute;
+            top:20px;
+            left: 100px;
+        }
+        .pic2{
+            position: absolute;
+            top:240px;
+            left: 100px;
+        }
+        .pic3{
+            position: absolute;
+            top:20px;
+            right: 100px;
+        }
+        .pic4{
+            position: absolute;
+            top:250px;
+            right: 100px;
+        }
+        @-webkit-keyframes leftImgAnimation {
+            0% {
+                -webkit-transform: translateX(-2000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+        @-webkit-keyframes rightImgAnimation {
+            0% {
+                -webkit-transform: translateX(2000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+
+        .pic1 {
+             -webkit-animation: leftImgAnimation 1s ease 1;
+         }
+        .pic2 {
+            -webkit-animation: leftImgAnimation 2s ease 1;
+        }
+        .pic3 {
+            -webkit-animation: rightImgAnimation 1s ease 1;
+        }
+        .pic4 {
+            -webkit-animation: rightImgAnimation 2s ease 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="content">
+        <img src="background.jpg">
+    </div>
+    <div class="pic1">
+        <img src="2.jpg">
+    </div>
+    <div class="pic2">
+        <img src="3.jpg">
+    </div>
+    <div class="pic3">
+        <img src="4.jpg">
+    </div>
+    <div class="pic4">
+        <img src="5.jpg">
+    </div>
+</div>
+</body>
+</html>
