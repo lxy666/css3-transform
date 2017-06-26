@@ -1,5 +1,4 @@
 # css3-transform
-css3 animation
 
 transform: none|transform-functions;
 
@@ -25,3 +24,17 @@ transform: none|transform-functions;
 | rotateY(angle)  | Y 轴的 3D 旋转 |
 | rotateZ(angle） | Z 轴的 3D 旋转|
 | perspective(n)  | 为 3D 转换元素定义透视视图 |
+
+
+# css3-animation
+
+
+| 值 | 描述 |
+| --- | --- |
+|animation|简写|
+|animation-name	|规定需要绑定到选择器的 keyframe 名称。|
+|animation-duration	|规定完成动画所花费的时间，以秒或毫秒计。|
+|animation-timing-function	|规定动画的速度曲线。|
+|animation-delay|	规定在动画开始之前的延迟。|
+|animation-iteration-count	|规定动画应该播放的次数。|
+|animation-direction	|规定是否应该轮流反向播放动画。|
