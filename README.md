@@ -40,6 +40,7 @@ transform: none|transform-functions;
 |animation-direction	|规定是否应该轮流反向播放动画。|
 
 animation-timing-function 使用名为三次贝塞尔（Cubic Bezier）函数的数学函数，来生成速度曲线。您能够在该函数中使用自己的值，也可以预定义的值：
+
 |值| 描述|
 |---|---|
 |linear |动画从头到尾的速度是相同的。 |
